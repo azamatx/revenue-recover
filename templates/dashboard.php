@@ -67,6 +67,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<strong>
 					<?php
 					printf(
+						/* translators: %s: Recovery rate percentage value. */
 						esc_html__( '%s%%', 'revenue-recover' ),
 						esc_html( number_format_i18n( $recovery_rate, 2 ) )
 					);
@@ -122,15 +123,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<?php foreach ( $recent_orders as $order ) : ?>
 							<?php
 							$status       = sanitize_key( $order->get_meta( Revenue_Recover_Failed_Payment_Detector::META_RECOVERY_STATUS, true ) );
-							$is_recovered = Revenue_Recover_Failed_Payment_Detector::RECOVERY_STATUS_RECOVERED === $status;
+							$revenue_recover_is_recovered = Revenue_Recover_Failed_Payment_Detector::RECOVERY_STATUS_RECOVERED === $status;
+
 							?>
 							<tr>
 								<td><?php $this->render_order_link( $order ); ?></td>
 								<td><?php echo esc_html( $this->get_customer_name( $order ) ); ?></td>
 								<td><?php echo wp_kses_post( $this->get_order_amount( $order ) ); ?></td>
 								<td>
-									<span class="revenue-recover-status <?php echo esc_attr( $is_recovered ? 'is-recovered' : 'is-pending' ); ?>">
-										<?php if ( $is_recovered ) : ?>
+									<span class="revenue-recover-status <?php echo esc_attr( $revenue_recover_is_recovered ? 'is-recovered' : 'is-pending' ); ?>">
+										<?php if ( $revenue_recover_is_recovered ) : ?>
                                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                                                 <path d="M20 6L9 17l-5-5"></path>
                                             </svg>

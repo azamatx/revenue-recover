@@ -3,7 +3,7 @@
  * Plugin Name: Revenue Recover
  * Plugin URI: https://wordpress.org/plugins/revenue-recover/
  * Description: Recover lost WooCommerce revenue from failed payments with automatic retry emails and secure payment retry links.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Requires at least: 6.7
  * Requires PHP: 7.4
  * Author: Azamat Khodjakov
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'REVENUE_RECOVER_VERSION' ) ) {
-	define( 'REVENUE_RECOVER_VERSION', '0.1.0' );
+	define( 'REVENUE_RECOVER_VERSION', '1.0.0' );
 }
 
 if ( ! defined( 'REVENUE_RECOVER_FILE' ) ) {
@@ -44,19 +44,6 @@ require_once REVENUE_RECOVER_PATH . 'includes/class-revenue-recover-admin-dashbo
 require_once REVENUE_RECOVER_PATH . 'includes/class-revenue-recover-plugin.php';
 
 /**
- * Loads plugin translations.
- *
- * @return void
- */
-function revenue_recover_load_textdomain() {
-	load_plugin_textdomain(
-		'revenue-recover',
-		false,
-		dirname( plugin_basename( REVENUE_RECOVER_FILE ) ) . '/languages'
-	);
-}
-
-/**
  * Returns the main Revenue Recover plugin instance.
  *
  * @return Revenue_Recover_Plugin
@@ -65,5 +52,4 @@ function revenue_recover() {
 	return Revenue_Recover_Plugin::instance();
 }
 
-add_action( 'init', 'revenue_recover_load_textdomain', 0 );
 add_action( 'plugins_loaded', 'revenue_recover', 20 );

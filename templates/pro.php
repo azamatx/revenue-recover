@@ -24,14 +24,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</div>
 
 	<div class="revenue-recover-pro-grid">
-		<?php foreach ( $features as $feature ) : ?>
+		<?php foreach ( $features as $revenue_recover_feature ) : ?>
 			<div class="revenue-recover-pro-card">
 				<div class="revenue-recover-pro-card-icon">
-					<?php echo esc_html( $feature['icon'] ); ?>
+					<?php echo esc_html( $revenue_recover_feature['icon'] ); ?>
 				</div>
 
-				<h2><?php echo esc_html( $feature['title'] ); ?></h2>
-				<p><?php echo esc_html( $feature['description'] ); ?></p>
+				<h2><?php echo esc_html( $revenue_recover_feature['title'] ); ?></h2>
+				<p><?php echo esc_html( $revenue_recover_feature['description'] ); ?></p>
 			</div>
 		<?php endforeach; ?>
 	</div>

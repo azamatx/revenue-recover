@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Revenue Recover 0.1.0\n"
+"Project-Id-Version: Revenue Recover 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/revenue-recover\n"
 "POT-Creation-Date: 2026-05-22 13:38+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
