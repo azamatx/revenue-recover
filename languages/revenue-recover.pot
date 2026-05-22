@@ -1,0 +1,285 @@
+# Copyright (C) 2026 Azamat
+# This file is distributed under the same license as the Revenue Recover plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Revenue Recover 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/revenue-recover\n"
+"POT-Creation-Date: 2026-05-22 13:38+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: revenue-recover\n"
+
+#. Plugin Name of the plugin
+#: revenue-recover.php
+#: includes/class-revenue-recover-admin-dashboard.php:72
+#: includes/class-revenue-recover-admin-dashboard.php:73
+msgid "Revenue Recover"
+msgstr ""
+
+#. Description of the plugin
+#: revenue-recover.php
+msgid "Recover lost WooCommerce revenue automatically from failed payments."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:83
+#: includes/class-revenue-recover-admin-dashboard.php:84
+msgid "Dashboard"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:92
+#: includes/class-revenue-recover-admin-dashboard.php:93
+msgid "Recover More Revenue"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:153
+#: includes/class-revenue-recover-admin-dashboard.php:180
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:186
+msgid "Automated Retry Sequences"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:187
+msgid ""
+"Follow up automatically after failed payments with smart retry emails that "
+"bring customers back before the sale is gone."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:191
+msgid "SMS & WhatsApp Recovery"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:192
+msgid ""
+"Reach customers where they actually respond, with instant retry links "
+"delivered through higher-attention channels."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:196
+msgid "Coupon-Based Recovery"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:197
+msgid ""
+"Turn hesitation into action with limited-time incentives that help recover "
+"payments faster."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:201
+msgid "Advanced Recovery Analytics"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:202
+msgid ""
+"See exactly how much revenue was at risk, what you recovered, and where your "
+"store is leaking money."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:206
+msgid "Subscription Payment Recovery"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:207
+msgid ""
+"Protect recurring revenue by recovering failed WooCommerce Subscriptions "
+"renewals before customers churn."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:211
+msgid "Team Notifications"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:212
+msgid ""
+"Alert your team instantly when important payments fail, so revenue problems "
+"never stay invisible."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:216
+msgid "Alternative Payment Suggestions"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:217
+msgid ""
+"Guide customers toward another payment method when their first option fails."
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:257
+msgid "Guest"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:287
+#: templates/dashboard.php:138
+msgid "Recovered"
+msgstr ""
+
+#: includes/class-revenue-recover-admin-dashboard.php:290
+#: templates/dashboard.php:147
+msgid "Pending"
+msgstr ""
+
+#. translators: %s: Site title.
+#: includes/class-revenue-recover-retry-email.php:140
+#, php-format
+msgid "Complete your payment at %s"
+msgstr ""
+
+#: includes/class-revenue-recover-retry-email.php:160
+msgid "Complete your payment"
+msgstr ""
+
+#. translators: %s: Customer first name.
+#: includes/class-revenue-recover-retry-email.php:183
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/class-revenue-recover-retry-email.php:186
+msgid "Hi,"
+msgstr ""
+
+#: includes/class-revenue-recover-retry-email.php:189
+msgid ""
+"Your payment was not completed, but your order is still waiting for you."
+msgstr ""
+
+#: includes/class-revenue-recover-retry-email.php:190
+msgid "Use the secure link below to complete your payment."
+msgstr ""
+
+#: includes/class-revenue-recover-retry-email.php:191
+msgid "Complete Your Payment"
+msgstr ""
+
+#: templates/dashboard.php:16
+msgid "💸 Turn failed payments into revenue."
+msgstr ""
+
+#: templates/dashboard.php:17
+msgid "Here is how your failed payment recovery is performing."
+msgstr ""
+
+#: templates/dashboard.php:21 templates/dashboard.php:174
+msgid "Explore Pro Features"
+msgstr ""
+
+#: templates/dashboard.php:35
+msgid "Failed Payments"
+msgstr ""
+
+#: templates/dashboard.php:36 templates/dashboard.php:51
+msgid "Total"
+msgstr ""
+
+#: templates/dashboard.php:50
+msgid "Recovered Revenue"
+msgstr ""
+
+#: templates/dashboard.php:65
+msgid "Recovery Rate"
+msgstr ""
+
+#: templates/dashboard.php:66
+msgid "Recovered / Failed"
+msgstr ""
+
+#: templates/dashboard.php:70
+#, php-format
+msgid "%s%%"
+msgstr ""
+
+#: templates/dashboard.php:85
+msgid "Recovered Orders"
+msgstr ""
+
+#: templates/dashboard.php:86
+msgid "Recent tracked orders"
+msgstr ""
+
+#: templates/dashboard.php:95
+msgid "Recent Failed Orders"
+msgstr ""
+
+#: templates/dashboard.php:96
+msgid ""
+"Orders with failed payments that Revenue Recover is helping you recover."
+msgstr ""
+
+#: templates/dashboard.php:104
+msgid "Order"
+msgstr ""
+
+#: templates/dashboard.php:105
+msgid "Customer"
+msgstr ""
+
+#: templates/dashboard.php:106
+msgid "Amount"
+msgstr ""
+
+#: templates/dashboard.php:107
+msgid "Recovery Status"
+msgstr ""
+
+#: templates/dashboard.php:108
+msgid "Date"
+msgstr ""
+
+#: templates/dashboard.php:116
+msgid "No failed payments yet."
+msgstr ""
+
+#: templates/dashboard.php:117
+msgid "When a payment fails, it will appear here with its recovery status."
+msgstr ""
+
+#: templates/dashboard.php:169
+msgid "Recover even more revenue with Pro features"
+msgstr ""
+
+#: templates/dashboard.php:170
+msgid ""
+"Unlock retry sequences, SMS and WhatsApp recovery, coupon incentives, "
+"advanced analytics, subscription recovery, and more."
+msgstr ""
+
+#: templates/pro.php:16
+msgid "✨ Planned Pro Features"
+msgstr ""
+
+#: templates/pro.php:19
+msgid "Build your failed-payment recovery machine."
+msgstr ""
+
+#: templates/pro.php:22
+msgid ""
+"Revenue Recover already helps you bring customers back with retry payment "
+"links. Pro is being shaped for store owners who want stronger automation, "
+"faster recovery channels, and clearer revenue intelligence."
+msgstr ""
+
+#: templates/pro.php:42
+msgid "🚀 Early Access"
+msgstr ""
+
+#: templates/pro.php:45
+msgid "Want to recover more payments automatically?"
+msgstr ""
+
+#: templates/pro.php:48
+msgid ""
+"Join the early access list and help shape Revenue Recover Pro. Early "
+"subscribers will receive a special launch discount when Pro becomes "
+"available."
+msgstr ""
+
+#: templates/pro.php:53
+msgid "Revenue Recovery PRO features waitlist"
+msgstr ""
