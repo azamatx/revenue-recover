@@ -50,8 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
 		<div class="revenue-recover-tally-placeholder">
-			<iframe data-tally-src="https://tally.so/embed/EkNdyN?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1053" frameborder="0" marginheight="0" marginwidth="0" title="<?php esc_attr_e( 'Revenue Recovery PRO features waitlist', 'revenue-recover' ); ?>"></iframe>
-			<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+			<iframe data-tally-src="https://tally.so/embed/EkNdyN?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1286" frameborder="0" marginheight="0" marginwidth="0" title="Revenue Recovery PRO features waitlist"></iframe>
 		</div>
 	</div>
 </div>

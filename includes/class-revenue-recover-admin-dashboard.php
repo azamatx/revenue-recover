@@ -60,6 +60,27 @@ class Revenue_Recover_Admin_Dashboard {
 			array(),
 			REVENUE_RECOVER_VERSION
 		);
+
+		$revenue_recover_page = isset( $_GET['page'] ) ? sanitize_key( wp_unslash( $_GET['page'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+
+		if ( 'revenue-recover-pro' === $revenue_recover_page ) {
+			wp_enqueue_script(
+				'revenue-recover-tally',
+				'https://tally.so/widgets/embed.js',
+				array(),
+				REVENUE_RECOVER_VERSION,
+				array(
+					'in_footer' => true,
+					'strategy'  => 'defer',
+				)
+			);
+
+			wp_add_inline_script(
+				'revenue-recover-tally',
+				'if ( typeof Tally !== "undefined" ) { Tally.loadEmbeds(); }',
+				'after'
+			);
+		}
 	}
 
 	/**
