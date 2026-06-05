@@ -50,7 +50,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
 		<div class="revenue-recover-tally-placeholder">
-			<iframe data-tally-src="https://tally.so/embed/EkNdyN?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1286" frameborder="0" marginheight="0" marginwidth="0" title="Revenue Recovery PRO features waitlist"></iframe>
+			<h3><?php esc_html_e( 'Help shape the Pro version', 'revenue-recover' ); ?></h3>
+
+			<p>
+				<?php esc_html_e( 'Tell us which recovery features would help your store save more failed payments. Early waitlist members get a special launch discount.', 'revenue-recover' ); ?>
+			</p>
+
+			<a
+				class="revenue-recover-tally-button"
+				href="<?php echo esc_url( 'https://tally.so/r/EkNdyN' ); ?>"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<?php esc_html_e( 'Join the Pro Waitlist', 'revenue-recover' ); ?>
+
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+					<path d="M7 17L17 7"></path>
+					<path d="M9 7h8v8"></path>
+				</svg>
+			</a>
 		</div>
 	</div>
 </div>

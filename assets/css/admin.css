@@ -542,19 +542,60 @@
 }
 
 .revenue-recover-tally-placeholder {
-	overflow: hidden;
-	min-height: 360px;
-	padding: 18px;
+	min-height: 240px;
+	padding: 30px;
 	border: 1px solid #e5e7eb;
 	border-radius: 16px;
-	background: rgba(255, 255, 255, 0.8);
+	background:
+		radial-gradient(circle at top right, rgba(196, 181, 253, 0.28), transparent 36%),
+		rgba(255, 255, 255, 0.82);
 	box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
 }
 
-.revenue-recover-tally-placeholder iframe {
-	display: block;
-	width: 100%;
-	border: 0;
+.revenue-recover-tally-placeholder h3 {
+	margin: 0 0 10px;
+	color: #111827;
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 1.25;
+	letter-spacing: -0.02em;
+}
+
+.revenue-recover-tally-placeholder p {
+	max-width: 520px;
+	margin: 0 0 22px;
+	color: #64748b;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+.revenue-recover-tally-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-height: 46px;
+	padding: 0 18px;
+	border-radius: 11px;
+	background: #4f46e5;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 800;
+	text-decoration: none;
+	box-shadow: 0 12px 24px rgba(79, 70, 229, 0.25);
+}
+
+.revenue-recover-tally-button:hover,
+.revenue-recover-tally-button:focus {
+	background: #4338ca;
+	color: #fff;
+}
+
+.revenue-recover-tally-button svg {
+	width: 16px;
+	height: 16px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 @media screen and (max-width: 1000px) {

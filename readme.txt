@@ -73,20 +73,6 @@ The free version sends a retry email with a secure payment retry link. Customers
 
 Yes. WooCommerce must be installed and active.
 
-== External services ==
-
-Revenue Recover uses Tally on the "Recover More Revenue" admin page to display an optional Pro feature waitlist form.
-
-The Tally embed is loaded only when an administrator opens the "Recover More Revenue" page in the WordPress admin area. It is not loaded on the storefront, checkout, cart, or customer-facing pages.
-
-No WooCommerce order data, customer payment data, or store transaction data is sent to Tally by Revenue Recover.
-
-If an administrator submits the waitlist form, the information entered into the form is sent to Tally. This may include the administrator's email address, store URL, payment gateway information, preferred Pro features, revenue range, and any optional message entered in the form.
-
-Service provider: Tally
-Terms of Service: https://tally.so/help/terms-and-conditions
-Privacy Policy: https://tally.so/help/privacy-policy
-
 == Screenshots ==
 
 1. Revenue recovery dashboard
