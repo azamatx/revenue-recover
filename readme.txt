@@ -75,10 +75,10 @@ Yes. WooCommerce must be installed and active.
 
 == Screenshots ==
 
-1. Revenue recovery dashboard
-2. Failed payment recovery tracking
-3. Retry payment email
-4. Planned Revenue Recover Pro features
+1. Revenue Recover automatically tracks failed payments and recovered revenue.
+2. Customers receive a secure payment retry link after a failed payment.
+3. Recovered orders are automatically tracked and attributed to recovered revenue.
+4. Explore upcoming Pro features and join the early-access waitlist.
 
 == Changelog ==
 
